@@ -20,23 +20,26 @@ Installation
 ------------
 Clone the repo git clone https://github.com/pnitin10/bucket.git/ and navigate to the project directory
 
-Create and activate a virtual environment
-e.g 
-Creation - virtualenv -p python3.6 env1
-Activate - source/bin/activate
-Deactivate - decativate
-
-Install dependencies pip install -r requirements.txt
+Create and activate a virtual environment__
+e.g __
+Creation - virtualenv -p python3.6 env__
+Activate - source/bin/activate__
+Deactivate - decativate__
+__
+Install dependencies pip install -r requirements.txt__
 
 From the project root directory, run the app
 
 Set up the database
-Create a mysql database using any other possible methods.
-navigate to bucket/backend/src/bucket/settings.py file, then update the database settings to hold your database name, your mysql user, password and any other neccessary information
-Make migrations.
-Run cd bucket/backend/src/ and python manage.py makemigrations to create the models for the app.
-After making migrations, run python manage.py migrate to create necessary tables in the database.
-Run cd bucket/backend/src/ and python manage.py runserver to get the app running
+-------------------
+<ul>
+  <li>Create a mysql database using any other possible methods.</li>
+  <li>Navigate to bucket/backend/src/bucket/settings.py file, then update the database settings to hold your database name, your mysql user, password and any other neccessary information</li>
+  <li>Make migrations.</li>
+  <li>Run cd bucket/backend/src/ and python manage.py makemigrations to create the models for the app.</li>
+  <li>After making migrations, run python manage.py migrate to create necessary tables in the database.</li>
+  <li>Run cd bucket/backend/src/ and python manage.py runserver to get the app running</li>
+</ul>
 
 
 Frontend
