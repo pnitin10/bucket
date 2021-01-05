@@ -20,13 +20,12 @@ Installation
 ------------
 Clone the repo git clone https://github.com/pnitin10/bucket.git/ and navigate to the project directory
 
-Create and activate a virtual environment__
-e.g __
-Creation - virtualenv -p python3.6 env__
-Activate - source/bin/activate__
-Deactivate - decativate__
-__
-Install dependencies pip install -r requirements.txt__
+Create and activate a virtual environment<br />
+e.g <br />
+Creation - virtualenv -p python3.6 env<br />
+Activate - source/bin/activate<br />
+Deactivate - decativate<br />
+Install dependencies pip install -r requirements.txt<br />
 
 From the project root directory, run the app
 
