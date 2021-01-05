@@ -1,0 +1,105 @@
+body{
+  background: rgb(54,217,182);
+  background: linear-gradient(90deg, rgba(54,217,182,1) 0%, rgba(32,152,126,1) 43%, rgba(0,212,255,1) 100%);
+}
+
+h1, h2, h3, h4, h5, p, span, strike{
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+#item-container{
+  max-width:600px;
+  margin:0 auto;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  background-color: #fff;
+  
+  margin-top:100px;
+  margin-bottom:100px;
+
+  justify-content: space-around;
+  align-items: flex-start;
+
+}
+
+#form-wrapper{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0rem;
+  border-bottom: 1px solid  #e9e9e9;
+  background-color: #fff;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.25);
+  padding:40px;
+}
+
+#submit{
+  background-color: #36d9b6;
+  border-radius: 0;
+  border:0;
+  color: #fff;
+}
+
+.FormData {
+  margin: 20px auto;
+  width: 80%;
+  text-align: center;
+  box-shadow: 0 2px 3px #ccc;
+  border: 1px solid #eee;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
+}
