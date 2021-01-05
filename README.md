@@ -9,15 +9,45 @@ Run the following commands to get started:
 
 Backend
 -------
+Technologies Used
+-----------------
 1. Python 3.6.10
-2. virtualenv env
-3. pip install -r requirements.txt
-4. python manage.py runserver
+2. Django
+3. Django REST Framework
+4. virtualenv
+
+Installation
+------------
+Clone the repo git clone https://github.com/pnitin10/bucket.git/ and navigate to the project directory
+
+Create and activate a virtual environment
+e.g 
+Creation - virtualenv -p python3.6 env1
+Activate - source/bin/activate
+Deactivate - decativate
+
+Install dependencies pip install -r requirements.txt
+
+From the project root directory, run the app
+
+Set up the database
+Create a mysql database using any other possible methods.
+navigate to bucket/backend/src/bucket/settings.py file, then update the database settings to hold your database name, your mysql user, password and any other neccessary information
+Make migrations.
+Run cd bucket/backend/src/ and python manage.py makemigrations to create the models for the app.
+After making migrations, run python manage.py migrate to create necessary tables in the database.
+Run cd bucket/backend/src/ and python manage.py runserver to get the app running
+
 
 Frontend
 --------
-1. React.js 16
-2. npm i or npm install
-3. npm start
+Technologies Used
+-----------------
+React.js 16
+
+Installation
+------------
+1. npm i or npm install
+2. npm start
 
 
